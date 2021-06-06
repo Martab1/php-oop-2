@@ -1,0 +1,109 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: rgb(233, 233, 233);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* UTILITIES */
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1300px;
+  margin: 30px auto;
+  padding: 0 10px;
+}
+
+a {
+  cursor: pointer;
+  margin: 0 20px;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  background: transparent;
+}
+a:hover {
+  color: rgb(34, 37, 36);
+  text-decoration: underline;
+}
+
+/* HEADER */
+
+h1 {
+  padding: 5px 30px;
+  font-weight: 200;
+  font-size: 38px;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.575);
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+section h2,
+section div,
+section strong {
+  background: transparent;
+  font-weight: 200;
+}
+
+.categories {
+  background: rgba(126, 124, 124, 0.575);
+  padding: 5px;
+}
+
+/* MAIN */
+
+h3 {
+  padding-top: 145px;
+  margin-left: 40px;
+  font-size: 26px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  max-width: 300px;
+}
+
+img {
+  width: 300px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.box {
+  text-align: left;
+  line-height: 20px;
+  margin: 0 50px;
+}
+
+.box p {
+  padding-top: 8px;
+}
